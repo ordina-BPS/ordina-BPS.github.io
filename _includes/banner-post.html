@@ -1,13 +1,13 @@
 Posted {{ page.date | date: "%b %-d, %Y" }}
 
 {% if page.category %}
-    in <a href="/categories/{{ page.category | downcase | replace:' ','-' }}/">{{ page.category }}</a>
+    in {{ page.category }}
 {% endif %}
 
 {% if page.authors != empty %}
     by
     {% for author in page.authors %}
-        <a href="{{ author.permalink | prepend: site.baseurl }}">{{author.first_name}} {{author.last_name}}</a>
+        {{author.first_name}} {{author.last_name}}
         {% if forloop.last == false %}
             {% if forloop.rindex0 == 1 %}
                  and 
@@ -22,6 +22,6 @@ Posted {{ page.date | date: "%b %-d, %Y" }}
     <br/>
     <i class="fa fa-tags"></i>
     {% for tag in page.tags %}
-        <a href="/tags/{{ tag | downcase | replace:' ','-' }}/">{{ tag }}</a>{% if forloop.last == false %}, {% endif %}
+        {{ tag }}{% if forloop.last == false %}, {% endif %}
     {% endfor %}
 {% endif %}

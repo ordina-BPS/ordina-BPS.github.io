@@ -10,7 +10,7 @@ permalink: /about/
             {% assign author = authorEntry[1] %}
             <div class="team-member">
                 {% include team-member-image.html author=author %}
-                <h1 class="team-member-name"><a href="{{ author.permalink | prepend: site.baseurl }}">{{ author.first_name }} {{ author.last_name }}</a></h1>
+                <h1 class="team-member-name">{{ author.first_name }} {{ author.last_name }}</h1>
                 <span class="team-member-title">{{ author.title }}</span>
                 {% if author.title2 %}
                 <span class="team-member-title">{{ author.title2 }}</span>
