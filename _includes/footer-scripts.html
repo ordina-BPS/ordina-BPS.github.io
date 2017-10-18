@@ -30,7 +30,7 @@
         this.page.title = "{{ page.title }}";
     };
 </script>
-<script src="//ordina-jworks.disqus.com/embed.js" async></script>
+<script src="//bpsordina.disqus.com/embed.js" async></script>
 {% endif %}
 
 <!-- Google Analytics -->
@@ -46,17 +46,18 @@
         a.src = g;
         m.parentNode.insertBefore(a, m);
     })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-    ga('create', 'UA-70040502-1', 'auto');
+    ga('create', 'UA-108237729-1', 'auto');
     ga('send', 'pageview');
 </script>
 <script type="text/javascript">
     window.addEventListener('load', function () {
         if (window.ga && ga.create) {
             console.log('GA loaded correctly');
-        } else {
-            console.log('GA is blocked or failed to load - tracking manually...')
-            document.getElementById('analyticsImg').src = 'https://jworks-techblog-analytics.cfapps.io/collect?title=' + document.title;
         }
+        //} else {
+        //    console.log('GA is blocked or failed to load - tracking manually...')
+        //    document.getElementById('analyticsImg').src = 'https://jworks-techblog-analytics.cfapps.io/collect?title=' + document.title;
+        //}
     }, false);
 </script>
 
