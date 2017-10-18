@@ -7,7 +7,8 @@ Posted {{ page.date | date: "%b %-d, %Y" }}
 {% if page.authors != empty %}
     by
     {% for author in page.authors %}
-        {{author.first_name}} {{author.last_name}}
+{{site.authors[author.first_name]}}
+         {{author}}
         {% if forloop.last == false %}
             {% if forloop.rindex0 == 1 %}
                  and 
