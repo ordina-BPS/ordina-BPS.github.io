@@ -11,19 +11,6 @@ maarten_Engelen:
   email: maarten.engelen@ordina.be
   phone: 0032495840137
   bio: Maarten is a SharePoint Consultant at Ordina.
-andy_VanSteenbergen:
-  first_name: Andys
-  last_name: Van Steenbergen	
-  github:
-  twitter: 
-  linkedin: 
-  permalink: /author/andy-VanSteenbergen/
-  avatar: andy-VanSteenbergen.png
-  title: Practice Manager
-  title2: Technical Consultant
-  email: andy.vansteenbergen@ordina.be
-  phone: 0032470650313
-  bio: Andy is a SharePoint Consultant at Ordina.
 thomas_VanBreda:
   first_name: Thomas
   last_name: Van Breda	
@@ -37,3 +24,16 @@ thomas_VanBreda:
   email: thomas.vanbreda@ordina.be
   phone: 0032493187196
   bio: Thomas is a SharePoint Consultant at Ordina.
+andy_VanSteenbergen:
+  first_name: Andy
+  last_name: Van Steenbergen	
+  github:
+  twitter: 
+  linkedin: 
+  permalink: /author/andy-VanSteenbergen/
+  avatar: andy-VanSteenbergen.png
+  title: Practice Manager
+  title2: Technical Consultant
+  email: andy.vansteenbergen@ordina.be
+  phone: 0032470650313
+  bio: Andy is a SharePoint Consultant at Ordina.
