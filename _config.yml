@@ -4,7 +4,7 @@ email: bps@ordina.be
 description: > # this means to ignore newlines until "baseurl:"
 metadata:
     author: Ordina Belgium
-    keywords: Ordina,BPS,Blog,.Net,SharePoint,O365,Office365,Angular,DevOps,SkyperForBusiness,Exchange
+    keywords: Ordina,BPS,Blog,.Net,SharePoint,O365,Office 365,DevOps,Skype For Business,Exchange
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://bpsordina.github.io" # the base hostname & protocol for your site
 twitter_username: lifeatordinabe
