@@ -9,7 +9,7 @@ metadata:
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://bpsordina.github.io" # the base hostname & protocol for your site
 twitter_username: lifeatordinabe
-github_username:  ordina-jworks
+github_username:  ordina-bps
 facebook: lifeatordinabe
 gems: [jekyll-paginate, jekyll-feed]
 # Build settings
