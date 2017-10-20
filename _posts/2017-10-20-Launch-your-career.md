@@ -3,8 +3,8 @@ layout: post
 authors: [Thomas Van Breda]
 title: 'Launch your career'
 image: /img/microservices/part1/securitylogo.png
-tags: [SharePoint, O365]
-category: SharePoint
+tags: [Career]
+category: Career
 comments: true
 ---
 
