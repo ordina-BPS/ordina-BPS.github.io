@@ -3,8 +3,8 @@ layout: post
 authors: [Andy Van Steenbergen]
 title: 'Securing your cloud-native microservice architecture in Spring: part 1'
 image: /img/microservices/part1/securitylogo.png
-tags: [Microservices, Security, OAuth2, JWT, Spring, Cloud]
-category: Microservices
+tags: [SharePoint, O365]
+category: SharePoint
 comments: true
 ---
 
