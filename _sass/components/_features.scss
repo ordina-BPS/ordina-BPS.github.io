@@ -18,7 +18,7 @@
         background-color: _palette(grey);
         color: _palette(fg-header);
         border-radius: _size(border-radius);
-        margin: (_size(section-spacing, large) * 0.5) _size(section-spacing, large) (_size(section-spacing, large) * 0.5) 0;
+        margin: 1.5em 1.5em 1.5em 0;
         width: calc(50% - #{_size(section-spacing, large) * 0.5});
     }
 
