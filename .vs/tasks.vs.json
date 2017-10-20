@@ -5,6 +5,11 @@
       "taskName": "task-bpsordina.github",
       "appliesTo": "/",
       "type": "launch"
+    },
+    {
+      "taskName": "task-bpsordina.github",
+      "appliesTo": "/",
+      "type": "launch"
     }
   ]
 }
