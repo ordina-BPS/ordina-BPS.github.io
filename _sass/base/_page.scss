@@ -24,29 +24,19 @@ body {
 }
 
 body {
-  background-color: _palette(bg);
-
-  background-image: linear-gradient(to top, transparentize(_palette(bg-header), 0.2), transparentize(_palette(bg-header), 0.2)),
-  url('../../img/backgrounds/bg_mechelen.jpg');
-
-  background-size: auto,
-  cover;
-
-  background-attachment: fixed,
-  fixed;
-
-  background-position: center,
-  center;
-
-  // Prevents animation/transition "flicker" on page load.
-  // Automatically added/removed by js/main.js.
-  &.is-loading {
-    *, *:before, *:after {
-      @include vendor('animation', 'none !important');
-      @include vendor('transition', 'none !important');
+    background-color: _palette(bg);
+    background-image: linear-gradient(to top, transparentize(_palette(bg-header), 0.2), transparentize(_palette(bg-header), 0.2)), url('../../img/backgrounds/Color_Building.jpg');
+    background-size: auto, cover;
+    background-attachment: fixed, fixed;
+    background-position: center, center;
+    // Prevents animation/transition "flicker" on page load.
+    // Automatically added/removed by js/main.js.
+    &.is-loading {
+        *, *:before, *:after {
+            @include vendor('animation', 'none !important');
+            @include vendor('transition', 'none !important');
+        }
     }
-  }
-
 }
 
 body.custom-image {
