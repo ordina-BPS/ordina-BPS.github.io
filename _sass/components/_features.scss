@@ -18,7 +18,7 @@
         color: _palette(fg-header);
         border-radius: _size(border-radius);
         margin: (_size(section-spacing, large) * 0.5) _size(section-spacing, large) (_size(section-spacing, large) * 0.5) 0;
-        width: calc(50% - #{_size(section-spacing, large) * 2});
+        width: calc(40% - #{_size(section-spacing, large) * 1});
 
         h3, a {
             color: _palette(fg-header);
@@ -48,7 +48,7 @@
     @include breakpoint(medium) {
         article {
             margin: (_size(section-spacing, medium) * 0.5) _size(section-spacing, medium) (_size(section-spacing, medium) * 0.5) 0;
-            width: calc(50% - #{_size(section-spacing, medium) * 1});
+            width: calc(40% - #{_size(section-spacing, medium) * 1});
         }
     }
 
@@ -56,7 +56,7 @@
         article {
             @include padding(1.5em, 1.5em);
             margin: (_size(section-spacing, small) * 0.5) _size(section-spacing, small) (_size(section-spacing, small) * 0.5) 0;
-            width: calc(50% - #{_size(section-spacing, small) * 1} - 1px);
+            width: calc(40% - #{_size(section-spacing, small) * 1} - 1px);
 
             .article-image {
                 margin-bottom: 1.5em;
