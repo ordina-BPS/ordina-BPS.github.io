@@ -1,6 +1,6 @@
 ---
 layout: post
-authors: [Thomas Van Breda]
+authors: [Tom Pans]
 title: 'Launch your career'
 image: /img/bps/Carreer_Accel.jpg
 tags: [Career]
