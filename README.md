@@ -1,4 +1,4 @@
-# Ordina JWorks Tech Blog
+# Ordina BPS Tech Blog
 
 ## Running the blog with Docker
 
