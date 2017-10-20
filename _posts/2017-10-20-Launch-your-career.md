@@ -2,7 +2,7 @@
 layout: post
 authors: [Thomas Van Breda]
 title: 'Launch your career'
-image: /img/microservices/part1/securitylogo.png
+image: /img/bps/Carreer_Accel.jpg
 tags: [Career]
 category: Career
 comments: true
