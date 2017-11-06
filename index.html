@@ -71,7 +71,7 @@ transparent_header: true
 
             <ul class="list-6 categories">
                 {% for cat in site.categories %}
-                <li><a href="/categories/{{cat[0] | downcase | replace:' ','-' }}">{{cat[0]}}</a></li>
+                <li>{{cat[0]}}</li>
                 {% endfor %}
             </ul>
         </div>
@@ -84,7 +84,7 @@ transparent_header: true
             <h2 class="major">Tags</h2>
 
             {% for tag in site.tags %}
-            <a href="/tags/{{tag[0] | downcase | replace:' ','-' }}">{{tag[0]}}</a>
+            {{tag[0]}}
             {% endfor %}
         </div>
     </div>
